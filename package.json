@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "WhatsApp API using baileys",
   "main": "index.js",
-  "bin": "index.js",
   "scripts": {
     "start": "node index.js"
   },
@@ -17,7 +16,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@adiwajshing/baileys": "^4.0.0",
+    "@adiwajshing/baileys": "^3.5.2",
     "express": "^4.17.1",
     "qrcode": "^1.4.4",
     "socket.io": "^4.1.3"
